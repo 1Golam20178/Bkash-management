@@ -1,0 +1,16 @@
+Send money =33, Cash out =3 , Cash in=33
+Send money =33, Cash out =33 , Cash in=3
+33,22,3
+33,11,22
+Send money =11, Cash out =33 , Cash in=22
+Send money =2, Cash out =2 , Cash in=2
+Send money =23, Cash out =11 , Cash in=22
+Send money =33, Cash out =12 , Cash in=22
+Send money =50, Cash out =100 , Cash in=45
+Send money =33, Cash out =223 , Cash in=22
+Send money =200, Cash out =500 , Cash in=100
+Send money =50, Cash out =500 , Cash in=100
+Send money =100, Cash out =500 , Cash in=100
+Send money =100, Cash out =500 , Cash in=100
+Send money =55, Cash out =333 , Cash in=44
+Send money =100, Cash out =122 , Cash in=12

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bikash.bikash.SrttingConcroller">
+   <children>
+      <Button layoutX="173.0" layoutY="151.0" mnemonicParsing="false" onAction="#updates" prefHeight="69.0" prefWidth="225.0" text="Uptade Your Informaton" textFill="#50fc00" />
+      <ImageView fitHeight="116.0" fitWidth="124.0" layoutX="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bkash-agent-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="139.0" layoutX="431.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bkash-agent-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="127.0" layoutX="49.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bkash-agent-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="127.0" layoutX="420.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bkash-agent-logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

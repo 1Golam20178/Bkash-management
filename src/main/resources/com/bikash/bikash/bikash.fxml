@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="393.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bikash.bikash.BikasController">
+   <children>
+      <ImageView fitHeight="227.0" fitWidth="229.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="146.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="373.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@unnamed.png" />
+         </image></ImageView>
+      <Button layoutX="366.0" layoutY="208.0" mnemonicParsing="false" onAction="#dologin" prefHeight="40.0" prefWidth="77.0" text="Login" textFill="#1036bf" />
+      <Label layoutX="233.0" layoutY="80.0" prefHeight="64.0" prefWidth="102.0" text="Mobile No" textFill="#73a7c9">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="142.0" prefHeight="37.0" prefWidth="102.0" text="Password" textFill="#73a7c9">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font></Label>
+      <TextField fx:id="codemobile" layoutX="357.0" layoutY="100.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" />
+      <PasswordField fx:id="codepassword1" layoutX="357.0" layoutY="148.0" />
+      <Label fx:id="errorlever" layoutX="126.0" layoutY="298.0" prefHeight="30.0" prefWidth="77.0" />
+      <Button layoutX="465.0" layoutY="208.0" mnemonicParsing="false" onAction="#onBikashController" prefHeight="40.0" prefWidth="77.0" text="Sing Up" textFill="#b21515" />
+      <Label layoutX="-56.0" layoutY="-33.0" text="Label" />
+      <Label layoutX="300.0" layoutY="8.0" prefHeight="92.0" prefWidth="183.0" text="Bkash" textFill="#9c525f">
+         <font>
+            <Font name="Bell MT Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+
+</AnchorPane>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="397.0" prefWidth="573.0" style="-fx-background-color: #dabbd8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bikash.bikash.BikashOption">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="286.0" layoutX="224.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../banner_two.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="396.0" layoutX="98.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../banner_two.png" />
+         </image>
+      </ImageView>
+
+      <Button layoutY="156.0" mnemonicParsing="false" onAction="#addsendmoney" prefHeight="30.0" prefWidth="100.0" text="Send Money" textFill="#b20b0b">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="263.0" layoutY="149.0" mnemonicParsing="false" onAction="#addCashIn" prefHeight="30.0" prefWidth="74.0" text="Cash In" textFill="#c31414">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></Button>
+      <Label fx:id="totalAmount" layoutX="5.0" prefHeight="49.0" prefWidth="100.0" style="-fx-background-color: black;" textFill="#e80303">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="sendMoney" layoutY="245.0" prefHeight="55.0" prefWidth="127.0" textFill="#d70b0b" />
+      <Label fx:id="cashOut" layoutX="130.0" layoutY="240.0" prefHeight="55.0" prefWidth="127.0" textFill="#dd0f0f" />
+      <Label fx:id="cashIn" layoutX="269.0" layoutY="246.0" prefHeight="42.0" prefWidth="110.0" textFill="#ee0909" />
+      <Label layoutX="33.0" layoutY="298.0" prefHeight="30.0" prefWidth="67.0" />
+      <Button layoutY="49.0" mnemonicParsing="false" onAction="#addTotalAmount" prefHeight="42.0" prefWidth="110.0" text="Total Amount" textFill="#e10c0c">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="138.0" layoutY="156.0" mnemonicParsing="false" onAction="#addCashOut" prefHeight="30.0" prefWidth="85.0" text="CashOut" textFill="#a81111">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font></Button>
+      <TextField fx:id="sendMoneyAmount" layoutX="4.0" layoutY="214.0" prefHeight="30.0" prefWidth="110.0" promptText="amount">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="sendCashIn" layoutX="261.0" layoutY="214.0" prefHeight="30.0" prefWidth="110.0" promptText="amount">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="sendCashOut" layoutX="130.0" layoutY="214.0" prefHeight="22.0" prefWidth="119.0" promptText="amount" />
+      <TableView fx:id="tableview" layoutY="315.0" prefHeight="87.0" prefWidth="226.0" style="-fx-background-color: #c31414;">
+        <columns>
+          <TableColumn fx:id="tablesend" prefWidth="91.0" text="Send Money" />
+          <TableColumn fx:id="tableout" prefWidth="69.0" text="Cash In" />
+            <TableColumn fx:id="tablein" prefWidth="65.0" text="Cash Out" />
+        </columns>
+      </TableView>
+      <Button layoutX="371.0" layoutY="-4.0" mnemonicParsing="false" onAction="#history" prefHeight="36.0" prefWidth="67.0" text="History" textFill="#1538d1" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="-4.0" mnemonicParsing="false" onAction="#others" prefHeight="36.0" prefWidth="83.0" text="Other" textFill="#1538d1" wrapText="true" />
+      <Button layoutX="520.0" layoutY="-4.0" mnemonicParsing="false" onAction="#backmenu" prefHeight="36.0" prefWidth="67.0" text="Menu" textFill="#1538d1" wrapText="true" />
+      <ImageView fitHeight="55.0" fitWidth="74.0" layoutX="263.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../add_money.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="83.0" layoutX="5.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@send_money.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="83.0" layoutX="139.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../cash_out.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="36.0" fitWidth="32.0" layoutX="596.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../settings.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="574.0" layoutY="34.0" mnemonicParsing="false" onAction="#setting" prefHeight="30.0" prefWidth="74.0" text="Setting" />
+      <Button layoutX="386.0" layoutY="214.0" mnemonicParsing="false" onAction="#paybill" prefHeight="30.0" prefWidth="91.0" text="Pay BIll" />
+      <ImageView fitHeight="78.0" fitWidth="91.0" layoutX="386.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@make_payment.jpg" />
+         </image></ImageView>
+      <Button layoutX="519.0" layoutY="215.0" mnemonicParsing="false" onAction="#mobile" prefHeight="32.0" prefWidth="127.0" text="Mobile Recarge" />
+      <ImageView fitHeight="61.0" fitWidth="110.0" layoutX="529.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mobile_recharge.jpg" />
+         </image>
+      </ImageView>
+
+      <TextField layoutX="1.0" layoutY="185.0" prefHeight="30.0" prefWidth="127.0" promptText="Mobile Number" />
+      <TextField layoutX="132.0" layoutY="185.0" prefHeight="30.0" prefWidth="127.0" promptText="Mobile Number" />
+      <TextField layoutX="253.0" layoutY="185.0" prefHeight="30.0" prefWidth="127.0" promptText="Mobile Number" />
+      <TextField layoutX="379.0" layoutY="185.0" prefHeight="30.0" prefWidth="138.0" promptText="Mobile Number" />
+      <TextField layoutX="517.0" layoutY="185.0" prefHeight="30.0" prefWidth="138.0" promptText="Mobile Number" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

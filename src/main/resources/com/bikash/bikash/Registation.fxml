@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="442.0" prefWidth="588.0" style="-fx-background-color: #FF0062;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bikash.bikash.RegistationController">
+   <children>
+      <Accordion layoutX="66.0" layoutY="64.0" prefHeight="20.0" prefWidth="0.0" />
+      <AnchorPane layoutX="66.0" layoutY="-8.0" prefHeight="422.0" prefWidth="1016.0" style="-fx-background-color: #FF0062;" AnchorPane.rightAnchor="-94.0">
+         <children>
+            <Label layoutX="168.0" layoutY="12.0" prefHeight="77.0" prefWidth="325.0" text="Registation From" textFill="#080cf5">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="96.0" layoutY="94.0" text="Frist Name" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label layoutX="94.0" layoutY="168.0" prefHeight="30.0" prefWidth="66.0" text="Moble No" textFill="WHITE" />
+            <Label layoutX="96.0" layoutY="158.0" textFill="#1fff0f" />
+            <Label layoutX="94.0" layoutY="126.0" />
+            <Label layoutX="102.0" layoutY="248.0" prefHeight="39.0" prefWidth="66.0" text="Password" textFill="#fafffc" />
+            <Label layoutX="98.0" layoutY="207.0" prefHeight="30.0" prefWidth="73.0" text="User Name" textFill="WHITE" />
+            <Label layoutX="71.0" layoutY="302.0" prefHeight="20.0" prefWidth="132.0" text="Confrom Password" textFill="#f8f8f8" />
+            <Label layoutX="97.0" layoutY="136.0" lineSpacing="23.0" text="Last Name" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+            <PasswordField fx:id="codepassword" layoutX="208.0" layoutY="253.0" prefHeight="30.0" prefWidth="185.0" />
+            <PasswordField fx:id="codeconfrompassword" layoutX="208.0" layoutY="297.0" />
+            <TextField fx:id="codeFristName" layoutX="208.0" layoutY="89.0" />
+            <TextField fx:id="codelastname" layoutX="208.0" layoutY="131.0" />
+            <TextField fx:id="codemoble" layoutX="208.0" layoutY="168.0" />
+            <TextField fx:id="codeusernane" layoutX="208.0" layoutY="207.0" />
+            <Label fx:id="error" layoutX="215.0" layoutY="413.0" prefHeight="20.0" prefWidth="155.0" textFill="#00e17f" />
+            <Button cache="true" contentDisplay="BOTTOM" depthTest="DISABLE" layoutX="238.0" layoutY="364.0" onAction="#reg1" prefHeight="39.0" prefWidth="126.0" style="-fx-background-color: blue; -fx-background-radius: 50;" text="Registation" textFill="#d01717" textOverrun="CLIP" AnchorPane.bottomAnchor="69.0" AnchorPane.leftAnchor="238.0" AnchorPane.rightAnchor="615.0" AnchorPane.topAnchor="364.0">
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Button>
+            <Button layoutX="508.0" layoutY="403.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="39.0" prefWidth="88.0" style="-fx-background-color: blue; -fx-background-radius: 50;" text="Back" textFill="#0fe112" />
+            <ImageView fitHeight="310.0" fitWidth="582.0" layoutX="397.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

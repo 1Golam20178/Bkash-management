@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bikash.bikash.OparetorController">
+   <children>
+      <AnchorPane layoutX="-33.0" layoutY="-8.0" prefHeight="425.0" prefWidth="646.0" style="-fx-background-color: #FF0076;">
+         <children>
+            <ChoiceBox fx:id="oparetor" layoutX="142.0" layoutY="135.0" prefHeight="30.0" prefWidth="185.0" />
+
+            <Label layoutX="64.0" layoutY="135.0" prefHeight="0.0" prefWidth="60.0" text="Oparetor" />
+            <Label layoutX="66.0" layoutY="182.0" text="Number" />
+            <Label layoutX="76.0" layoutY="224.0" text="Amount" />
+            <TextField fx:id="number" layoutX="142.0" layoutY="177.0" promptText=" Enter Number" />
+            <TextField fx:id="mamount" layoutX="142.0" layoutY="219.0" promptText="Enter Amount" />
+            <Button layoutX="309.0" layoutY="219.0" mnemonicParsing="false" onAction="#done" prefHeight="20.0" prefWidth="10.0" textFill="#f2f2f2" />
+            <Button layoutX="210.0" layoutY="295.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: blue;" text="Done" textFill="#00ffd8" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
